@@ -1,0 +1,33 @@
+@import url('navbar.css');
+@import url('home.css');
+@import url('about.css');
+@import url('services.css');
+@import url('portfolio.css');
+@import url('contact.css');
+
+:root { --main-color: #787CB5; }
+
+* {
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+html { font-family: 'Roboto', sans-serif; }
+
+body { min-height: 100vh; }
+
+.format-container {
+	color: #171515;
+	line-height: 30px;
+	margin: 100px 20px;
+	padding: 0 15px;
+	text-align: center;
+}
+
+.footer-p {
+	margin-bottom: 20px;
+	text-align: center;
+}

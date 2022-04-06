@@ -1,0 +1,36 @@
+.contact-container {
+    line-height: 30px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.contact-grid { margin-bottom: 30px; }
+
+.contact-grid a { display: block; }
+
+.fa-github { color: #171515; }
+
+.fa-linkedin-in { color: #0e76a8; }
+
+.fa-envelope { color:#787CB5; }
+
+/*
+
+ */
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) 
+{ 
+    .contact-container {
+        display: flex;
+        font-size: 20px;
+        justify-content: space-evenly;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) 
+{
+    .contact-container { font-size: 30px; }
+}

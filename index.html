@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<title>Facundo Recarey</title>
+
+<!-- Scroll Reveal  -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- Styles -->
+  	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<!-- Font -->
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+	</style>
+
+<!-- Ícons -->
+	<script src="https://kit.fontawesome.com/d9a9235032.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+<!-- Navbar -->
+  	<header>
+  		<nav class="navbar">  
+			<ul class="navbar-menu">
+  				<li><a href="#home" class="menu-home">Inicio</a></li>
+  				<li><a href="#about" class="menu-about">Acerca de</a></li>
+  				<li><a href="#services" class="menu-services">Servicios</a></li>  
+  				<li><a href="#contact" class="menu-contact">Contacto</a></li>
+  			</ul>
+			<button class="btn-menu"><i class="fas fa-bars"></i></button> 
+  		</nav>
+  	</header>
+
+<!-- Home -->
+
+  	<main class="home" id="home">
+			<div class="home-container">
+				<img class="perfil-img" src="img/perfil-img.png" alt="perfil-img">
+				<div class="home-titles">
+					<h1 class="home-title">Facundo Recarey</h1>
+					<h2 class="home-subtitle">Frontend Developer</h2>
+				</div>
+			</div>
+  	</main>
+
+<!-- About Section -->
+
+  	<section class="about" id="about">
+		<div class="format-container">
+			<div class="about-description">
+				<h2 class="about-title">¿Quién soy?</h2>
+				<p class="about-p">
+					Mi nombre es Facundo Recarey. Soy un desarrollador Full Stack con experiencia creando sitios web de distintas índoles y novedosos diseños. Siempre estoy aprendiendo nuevas habilidades para crecer profesionalmente y de manera personal, para poder contribuir de manera eficaz en mi grupo de trabajo.
+				</p>
+			</div>
+		</div>	
+
+<!-- Skills -->
+
+		<div class="format-container">
+			<h2 class="skills-title">Habilidades</h2>
+			<div class="skills-container">
+					
+				<div class="skills-grid">
+					<i class="fab fa-html5"></i>
+					<h2 class="icon-title">HTML</h2>
+				</div>
+				
+				<div class="skills-grid">
+					<i class="fab fa-css3-alt"></i>
+					<h2 class="icon-title">CSS</h2>
+				</div>
+
+				<div class="skills-grid">
+					<i class="fab fa-js"></i>
+					<h2 class="icon-title">Javascript</h2>
+				</div>
+				
+				<div class="skills-grid">
+					<i class="fab fa-php"></i>
+					<h2 class="icon-title">PHP</h2>
+				</div>
+
+				<div class="skills-grid">
+					<img src="img/mysql.jpg" width="42" height="42">
+					<h2 class="icon-title">Mysql</h2>
+				</div>
+
+				<div class="skills-grid">
+					<img class="icon icons8-C" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADOklEQVR4Xu2ai3HUMBCGSQVABTgVABVwVACpgEsFQAWYCoAKuHQAFWAqACrgqACoAPab2DMhkezbh3X2oJ3Zyc1J2sev3ZUu2pNb81AjYp8I3xHeOFV0sv6X8EfhvVPWjeUnwQKfibxWGADmIABA/kWU8CgAHohB74X5W4IA4kz4q1dZBABPe+cJ95JEWrwU3nmUegHY9s57bPCuPfeA4AGAcP8kXHrnU4A9tKaDB4DvorTxbl/QetLhVJi/KrIC8EK0vJnQ9E7GP/Q7ozasl010EWnUmecT+l7LeKvyXiZbAfg5Evq/e4M7rTET8zcyvhO+l5kHyHe1Oi0AYAi5n6PHMhDt/KCLaPgyopujkag7mCwAvBXpuXA0heHB1l5ObIVfZdZwQdpq5FkAYHcfZZRQiPYaAwxzqQukYIo+y5cbjcxIAMj9UkciIKdqAd+zCQeTBYA/UegfbOXNieQ5P7ZSpPJJNbnXtgQAWrElVQeKpMASACDVCPfb10JAfQKtNQLwGxA4kRph7gB87rRptWYAtL76C8aCakCI8wipEWCAcglF0GB2wJlZU+ASgRoBmfhTX0LC4tghqBZBA3g1BWoKpBGoNUBw2RhS6qhLahE0wF+LYC2CtQgmEainQD0F6jF4lHsAjzTfhE0PsGu+B2zFaV6oh8cY/ilKx4iK1goAN87UA636bXKtAOQeaPcCzOxPYyhJvcuVPAY7sSH3QKvaVNXkPrnClKuS9d/JuQYN9SZEA2BuVlKA0chc+pNSVASAsf4gGhcBYU6i+FEEU1SkCI7tAEapjVCgNdWcpY5ASwpg71gdYJz3+3Nh0+UkAQhnPc/hAJAjLkP0EKnICgAhONYohRE4P7TJkRoWwiEYfc2EAPXTOPKsALB2J0x3+BKIVnp6CdXkAYCw7ITvq7XGLiD0iRBTunkAwI1jg/Cjd35vxdQLwAACuZ67mVltm1rn2vlBeAQAgywqdCt8vW9nyhHtOO14/BZAl5siARiiYSsfKEjREcGO73o25XsKrWgAruqgPqjP5cyWcoyGOX1Vx5wAuMOzhIAKQAmUl6yjRsCSd6eEbTUCSqC8ZB01Apa8OyVs++8j4C/X/aZB+8kPpgAAAABJRU5ErkJggg==" width="42" height="42">
+					<h2 class="icon-title">Lenguaje C</h2>
+				</div>
+
+				<div class="skills-grid">
+					<img src="img/figma.jpg" width="42" height="42">
+					<h2 class="icon-title">Figma</h2>
+				</div>
+
+				<div class="skills-grid">
+					<img src="img/git.jpg" width="42" height="42">
+					<h2 class="icon-title">Git</h2>
+				</div>
+
+				<div class="skills-grid">
+					<img src="img/bootstrap.jpg" width="42" height="42">
+					<h2 class="icon-title">Bootstrap</h2>
+				</div>
+			</div>
+		</div>
+  	</section>
+
+<!-- Services Section -->
+
+  	<section class="services" id="services">
+
+		<div class="format-container">
+			<h2 class="services-title">Servicios que ofrezco</h2>
+			<div class="services-grid-container">
+				<div class="services-grid">  
+					<i class="fas fa-crosshairs"></i>
+					<h2 class="services-title">SEO</h2>
+					<p class="services-p">
+						A través de un SEO bien desarrollado, podemos lograr que tu sitio lidere en los primeros puestos en los motores de búsqueda.
+					</p>
+				</div>
+
+				<div class="services-grid">
+					<i class="fas fa-tachometer-alt"></i>
+					<h2 class="services-title">Performance</h2>
+					<p class="services-p">
+						El rendimiento de un sitio web es vital para no generar retrasos y en consecuencia, no perder el interés de los visitantes de nuestra web.
+					</p>
+				</div>
+
+				<div class="services-grid">
+					<i class="fas fa-thumbs-up"></i>
+					<h2 class="services-title">Social Media</h2>
+					<p class="services-p">
+						Hay muchísimas plataformas sociales y es necesario un sistema de integración que abarque todas ellas.
+					</p>
+				</div>
+
+				<div class="services-grid">
+					<i class="fas fa-code"></i>
+					<h2 class="services-title">Development</h2>
+					<p class="services-p">
+						Un desarrollo bien logrado, que permita guiar al usuario de manera intuitiva a las partes más importantes de tu sitio.
+					</p>
+				</div>
+
+				<div class="services-grid">
+					<i class="fas fa-pencil-ruler"></i>
+					<h2 class="services-title">Creative Design</h2>
+					<p class="services-p">
+						Un buen y atractivo diseño ayuda enormemente a que tu sitio produzca una experiencia agradable al usuario y quiera saber más acerca de tu empresa.
+					</p>
+				</div>
+
+				<div class="services-grid">
+					<i class="fas fa-mobile-alt"></i>
+					<h2 class="services-title">Responsive</h2>
+					<p class="services-p">
+						Tu sitio podrá ser visto en todo tipo de dispositivos, ya sea computadoras de escritorios, laptops, tablets y celulares.
+					</p>
+				</div>
+	
+			</div>
+		</div>
+  	</section>
+
+
+ <!-- Contact Section -->
+
+  	<section class="contact" id="contact">
+  		<div class="format-container">
+				<div class="contact-container">
+
+					<div class="contact-grid">
+						<i class="fab fa-github"></i>
+						<a href="https://github.com/FacuReca" target="_blank">Sígueme en Github</a>
+					</div>	
+
+					<div class="contact-grid">
+						<i class="fab fa-linkedin-in"></i>
+						<a href="https://www.linkedin.com/in/facundo-recarey-970419196/" target="_blank">Sígueme en Linkedin</a> 
+					</div>
+
+					<div class="contact-grid">
+						<i class="fas fa-envelope"></i>
+						<p class="contact-p">facundorecarey@gmail.com</p>
+					</div>
+
+				</div>
+			</div>
+  	</section>
+
+<!-- Footer Section -->
+
+  	<footer class="footer">
+			<p class="footer-p">&copy Todos los derechos reservados</p>
+  	</footer>
+
+  	<script type="text/javascript" src="js/main.js"></script>
+  
+  </body>
+</html>
